@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "$npm_package_ng",
     "start": "node server.js",
-    "build": "$npm_package_ng build --delete-output-path --prod",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
